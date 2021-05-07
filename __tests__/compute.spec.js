@@ -7,5 +7,5 @@ test('Should add the two numbers', () => {
 
 test('Should add the two 3 digit-numbers', () => {
   const sum2 = compute(100, 300)
-  if (sum2 !== 4000) throw new Error('Total should be 5 but got ' + sum2)
+  if (sum2 !== 400) throw new Error('Total should be 5 but got ' + sum2)
 })
