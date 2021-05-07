@@ -21,7 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
       - uses: actions/setup-node@v1
       - run: npm ci
       #before the first 'run' each "run" is a script from your project:
