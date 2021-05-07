@@ -53,7 +53,7 @@ jobs:
 
       # Run the linting action
       - name: Run linters
-        uses: naskritus/lint-action@v1.5.3
+        run: npm run eslint . --ext .ts,.tsx
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # Authorizes the github action via a Github token which is for this repo only (Generated automatically)
           eslint: true # Enables eslint
