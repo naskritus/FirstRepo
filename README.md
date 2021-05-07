@@ -1,2 +1,2 @@
 # FirstRepo
-Tis is our first repo
+Tis is our first repo: Github Actions & Jest Implementation
