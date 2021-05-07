@@ -1,6 +1,11 @@
 const compute = require('../src/compute')
 
 test('Should add the two numbers', () => {
-  const total = compute(2, 3)
-  if (total !== 5) throw new Error('Total should be 5 but got ' + total)
+  const sum1 = compute(2, 3)
+  if (sum1 !== 5) throw new Error('Total should be 5 but got ' + sum1)
+})
+
+test('Should add the two 3 digit-numbers', () => {
+  const sum2 = compute(100, 300)
+  if (sum2 !== 4000) throw new Error('Total should be 5 but got ' + sum2)
 })

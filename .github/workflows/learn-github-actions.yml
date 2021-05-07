@@ -1,13 +1,3 @@
-# name: learn-github-actions
-# on: [push]
-# jobs:
-#   check-compute-functionality:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - uses: actions/setup-node@v1
-#       - run: npm install -g bats
-#       -
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 name: Node.js CI
