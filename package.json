@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/naskritus/FirstRepo#readme",
   "devDependencies": {
-    "jest": "^26.6.3",
-    "hosted-git-info": ">=3.0.8"
+    "jest": "^26.6.3"
   },
   "dependencies": {
     "prettier": "^2.2.1"
