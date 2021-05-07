@@ -26,7 +26,11 @@
 name: Intergration and Unit Tests
 
 # When the to run the greeting
-on: [pull_request]
+ on:
+   push:
+     branches: [master]
+   pull_request:
+     branches: [master]
 
 # Jobs to run for the action (You can have multiple actions in one file)
 jobs:
