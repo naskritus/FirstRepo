@@ -1,0 +1,9 @@
+./README.md
+
+node_modules/*
+
+*.test.js
+
+*.spec.js
+
+./.github/workflows/**/*.yml
