@@ -1,0 +1,29 @@
+{
+  "name": "FirstRepo",
+  "version": "1.0.0",
+  "description": "Tis is our first repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naskritus/FirstRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naskritus/FirstRepo/issues"
+  },
+  "homepage": "https://github.com/naskritus/FirstRepo#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
