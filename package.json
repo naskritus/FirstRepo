@@ -4,7 +4,11 @@
   "description": "Tis is our first repo",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "allDependencies": "npm run coreDependencies && npm run devDependencies",
+    "coreDependencies": "npm install",
+    "devDependencies": " npm install --only=dev",
+    "lint": "eslint src/**/*.js  --fix"
   },
   "jest": {
     "collectCoverage": true,
