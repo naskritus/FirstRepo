@@ -14,8 +14,11 @@ jobs:
       - uses: actions/setup-node@v1
       - name: Install Modules
         run: npm ci
-      - name: Run ESLint
-        run: eslint . --ext .js, .jsx, .ts, .tsx
+      - uses: stefanoeb/eslint-action@1.0.2
+        with:
+          files: src/
+      # - name: Run ESLint
+      #   run: eslint . --ext .js, .jsx, .ts, .tsx
       #before the first 'run' each "run" is a script from your project:
       - name: Run Unit Tests
         run: npm test
