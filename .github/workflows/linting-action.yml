@@ -54,11 +54,11 @@ jobs:
       # Run the linting action
       - name: Run linters
         run: npm run eslint . --ext .ts,.tsx
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Authorizes the github action via a Github token which is for this repo only (Generated automatically)
-          eslint: true # Enables eslint
-          prettier: true # Enables prettier to prettieifer the code when commiting and spots any violations
-          auto_fix: true # Auto fixes an prettier or eslint violations
-          git_name: 'FirstRepo'
-          git_email: 'naskritus@gmail.com'
-          commit_message: 'A ${linter} issue was resolved automatically' # Might need removing if it causes the linting to break
+        # with:
+        #   github_token: ${{ secrets.GITHUB_TOKEN }} # Authorizes the github action via a Github token which is for this repo only (Generated automatically)
+        #   eslint: true # Enables eslint
+        #   prettier: true # Enables prettier to prettieifer the code when commiting and spots any violations
+        #   auto_fix: true # Auto fixes an prettier or eslint violations
+        #   git_name: 'FirstRepo'
+        #   git_email: 'naskritus@gmail.com'
+        #   commit_message: 'A ${linter} issue was resolved automatically' # Might need removing if it causes the linting to break
