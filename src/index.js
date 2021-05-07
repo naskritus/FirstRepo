@@ -1,2 +1,2 @@
-alert('hola')
-alert('hollllll')
+alert('hola');
+alert('hollllll');
