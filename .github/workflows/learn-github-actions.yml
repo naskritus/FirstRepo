@@ -12,6 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm ci
+      -name: Install Modules
+        run: npm ci
+      - name: Run ESLint
+        run : eslint . --ext .js, .jsx, .ts, .tsx
       #before the first 'run' each "run" is a script from your project:
-      - run: npm test
+      -name: Run Unit Tests
+        run: npm test
