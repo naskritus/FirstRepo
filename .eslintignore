@@ -6,4 +6,6 @@ node_modules/*
 
 *.spec.js
 
+coverage/*
+
 ./.github/workflows/**/*.yml
